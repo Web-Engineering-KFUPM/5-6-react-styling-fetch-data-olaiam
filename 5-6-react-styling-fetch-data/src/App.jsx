@@ -111,7 +111,7 @@ Dependency array MUST be:
 =============================================================
 TODO C1 — VIEW DETAILS BUTTON + USER DETAILS MODAL
 =============================================================
-TODO 3.1: File: src/components/UserCard.jsx
+TODO 3.1: File: src/components/UserCard.jsx ✅
 Implement:
 - Add ONE Bootstrap <Button> inside <Card.Body>
 - Button text MUST be: "View Details"
