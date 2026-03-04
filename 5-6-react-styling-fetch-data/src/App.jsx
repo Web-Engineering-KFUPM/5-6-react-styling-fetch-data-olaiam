@@ -92,7 +92,7 @@ Hint:
 - Use an async function inside useEffect, then call it.
 - Check response.ok and throw an Error if it’s false (otherwise errors won’t go to catch cleanly).
 
-TODO 2.2: File: src/App.jsx
+TODO 2.2: File: src/App.jsx ✅
 Implement the filtering logic inside the second useEffect.
 
 Requirements:
@@ -238,6 +238,16 @@ fetchUsers();
      ========================================================= */
   useEffect(() => {
     // TODO 2.2: Implement filtering users here (see lab instructions)
+         if (!searchTerm) {
+      setFilteredUsers(users);
+      return;
+      }
+
+      const filtered = users.filter((user) =>
+      user.name.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+
+      setFilteredUsers(filtered);
   }, [searchTerm, users]);
 
   // Modal handlers (already complete)
