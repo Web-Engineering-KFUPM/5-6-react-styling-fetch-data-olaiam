@@ -44,18 +44,18 @@ TODO 1.1: File: src/App.jsx
 - In the <header> tag, set className to EXACTLY:
    "bg-primary text-white py-3 mb-4 shadow"
 - In the <footer> tag, set className to EXACTLY:
-   "bg-light py-4 mt-5"
+   "bg-light py-4 mt-5" ✅
 
 TODO 1.2: File: src/components/SearchBar.jsx
 - SEARCH BAR SPACING: In the wrapper <div>, set className to EXACTLY:
-   "mb-4".
+   "mb-4". ✅
 
 TODO 1.3: File: src/components/UserList.jsx
 - Empty state:
   If users.length === 0, RETURN this EXACT element:
     <Alert variant="info">
       No users found matching your search criteria.
-    </Alert>
+    </Alert> ✅
 
 - Grid layout:
   In the return statement:
